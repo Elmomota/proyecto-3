@@ -1,0 +1,44 @@
+
+{% extends 'base.html'%}
+{% block content %}
+<main class="container py-5">
+    <section class="card card-body">
+        <h1 class="display-1 text-center">Zapacity</h1>
+        <p>¡Bienvenidos a Zapacity, tu tienda de zapatillas favorita! Ofrecemos una amplia variedad de modelos para todos los gustos y necesidades. Encuentra zapatillas deportivas de alto rendimiento para corredores y atletas, así como elegantes zapatillas casuales para el día a día.
+
+            También tenemos una colorida colección de zapatillas infantiles, duraderas y a la moda para los más pequeños. No te pierdas nuestras zapatillas de senderismo, perfectas para tus aventuras al aire libre.
+            
+            Trabajamos con las mejores marcas para garantizar calidad y estilo. ¡Visítanos y descubre tu próximo par de zapatillas en Zapacity!
+        </p>
+
+
+        <br><br>
+
+        <div class="container">
+            <h2>Nuestras Tiendas</h2>
+            <div id="map"></div>
+            <br>
+            <div class="container">
+                <div class="card">
+                    <h2 class="card-title">Tiendas en Santiago de Chile</h2>
+                    <p class="card-text">¡Visita nuestras tiendas en Santiago de Chile para descubrir nuestras últimas ofertas y productos emocionantes!</p>
+                </div>
+                <div class="card">
+                    <h2 class="card-title">Tienda en Valparaíso</h2>
+                    <p class="card-text">¡Ven a nuestra tienda en Valparaíso y disfruta de nuestras increíbles vistas y productos exclusivos!</p>
+                </div>
+            </div>
+        
+        </div>
+        <br><br>
+        
+
+        <div class="text-center">
+            <a class="btn btn-secondary" href="/signin/">Iniciar sesión</a>
+            <a class="btn btn-dark" href="/sigup/">Registro</a>
+        </div>
+    </section>
+</main>
+
+
+{% endblock %}
